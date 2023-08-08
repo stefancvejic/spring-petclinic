@@ -13,7 +13,7 @@ jobs:
         with:
           # to check out the actual pull request commit, not the merge commit
           fetch-depth: 0  # a full history is required for pull request analysis
-      - name: 'Qodana Scan'
+      - name: 'Qodana Scan1'
         uses: JetBrains/qodana-action@e04c1d05b18f0de5123491eeb4e7fb55b259a9ac
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
